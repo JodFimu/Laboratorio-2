@@ -1,0 +1,75 @@
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-btn {
+  background-size: cover;
+  background-position: center;
+  width: 240px;
+  height: 850px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: white;
+  margin: 10px;
+}
+
+.image-btn:hover {
+  filter: contrast(120%);
+  transform: scale(1.1);
+}
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 45px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .6s ease-in-out;
+  -o-transition: all .6s ease-in-out;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .6s ease-in-out;
+  -o-transition: all .6s ease-in-out;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-1 {
+  background-image: linear-gradient(to right, #73192A, #F24949, #73192A, #0A2626);
+  box-shadow: 0 4px 15px 0 #73020c;
+}
+
+.btn-hover.color-5 {
+  background-image: linear-gradient(to right, #400A0A, #F24162, #00030D , #400A0A);
+  box-shadow: 0 4px 15px 0 #73192A;
+}
+
+.btn-hover.color-8 {
+  background-image: linear-gradient(to right, #F22E52, #485563, #F24949, #400A0A);
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
